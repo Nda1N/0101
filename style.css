@@ -1,4 +1,3 @@
-
 /* 赤枠 */
 #markerBoundary {
     position: fixed;
@@ -46,13 +45,11 @@
 #gifPopup {
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     display: none;
     z-index: 1000;
-    animation: spin 2s linear infinite;
 }
-
 
 /* ×ボタン（四角に変更） */
 #closeButton {
@@ -69,8 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
-    
+    z-index: 1001;
 }
 
 /* ローディング画面 */
@@ -90,13 +86,13 @@
 
 /* ボタンの配置 */
 #switchButtons {
-    position: fixed;
+    position: absolute;
     top: 20%; 
     right: 5%; /* ×ボタンと同じ横位置 */
+    z-index: 1000;
     display: flex;
     flex-direction: column;  /* 縦方向に配置 */
-    gap: 10px
-    z-index: 1000;
+    gap: 10px;  /* ボタンの間隔 */
 }
 
 /* ①と②のボタンスタイル */
