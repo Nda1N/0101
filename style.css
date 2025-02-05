@@ -48,10 +48,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    z-index: 1001;  /* #switchButtons よりも高い値を設定 */
-    width: 90vw;
-    height: 90vh;
-    object-fit: contain;
+    z-index: 1000;
 }
 
 
@@ -95,6 +92,7 @@
     right: 5%; /* ×ボタンと同じ横位置 */
     display: flex;
     flex-direction: column;  /* 縦方向に配置 */
+    gup: 10px
 }
 
 /* ①と②のボタンスタイル */
