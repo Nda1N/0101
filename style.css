@@ -1,5 +1,3 @@
-
-
 /* 赤枠 */
 #markerBoundary {
     position: fixed;
@@ -56,7 +54,6 @@
     object-fit: contain; /* 映像がはみ出さないように */
 }
 
-
 /* ×ボタン（四角に変更） */
 #closeButton {
     position: absolute;
@@ -74,8 +71,6 @@
     justify-content: center;
     z-index: 1001;
 }
-
-
 
 /* ローディング画面 */
 #loadingCircle {
@@ -95,12 +90,13 @@
 /* ボタンの配置 */
 #switchButtons {
     position: fixed;
-    bottom: 30px;
+    top: 15%;  /* ×ボタンの下に配置 */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
     display: flex;
-    gap: 20px;
+    flex-direction: column;  /* 縦方向に配置 */
+    gap: 10px;  /* ボタンの間隔 */
 }
 
 /* ①と②のボタンスタイル */
