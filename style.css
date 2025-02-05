@@ -49,9 +49,6 @@
     transform: translate(-50%, -50%);
     display: none;
     z-index: 1000;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* 映像がはみ出さないように */
 }
 
 /* ×ボタン（四角に変更） */
@@ -90,7 +87,7 @@
 /* ボタンの配置 */
 #switchButtons {
     position: absolute;
-    top: 15%; 
+    top: 20%; 
     right: 5%; /* ×ボタンと同じ横位置 */
     z-index: 1000;
     display: flex;
