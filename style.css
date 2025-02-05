@@ -90,13 +90,12 @@
 /* ボタンの配置 */
 #switchButtons {
     position: absolute;
-    top: calc(5% + 50px + 15px); /* ×ボタンの下に配置 */
-    right: 5%;
+    top: 15%; 
+    right: 5%; /* ×ボタンと同じ横位置 */
     z-index: 1000;
     display: flex;
     flex-direction: column;  /* 縦方向に配置 */
     gap: 10px;  /* ボタンの間隔 */
-    align-items: center; /* ボタンを中央に配置 */
 }
 
 /* ①と②のボタンスタイル */
