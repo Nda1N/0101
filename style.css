@@ -49,11 +49,10 @@
     transform: translate(-50%, -50%);
     display: none;
     z-index: 1001;  /* #switchButtons よりも高い値を設定 */
-    width: 90vw;
-    height: 90vh;
-    object-fit: contain;
+    width: 100vw;    /* 画面幅に合わせる */
+    height: 100vh;   /* 画面高さに合わせる */
+    object-fit: contain; /* 映像が画面に収まるように */
 }
-
 
 /* ×ボタン（四角に変更） */
 #closeButton {
@@ -70,7 +69,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 /* ローディング画面 */
