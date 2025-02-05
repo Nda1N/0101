@@ -48,10 +48,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    z-index: 1000;
-    width: 90vw; /* 横幅を画面幅の90%に設定 */
-    height: 90vh; /* 高さを画面高さの90%に設定 */
-    object-fit: contain; /* 映像がはみ出さないように */
+    z-index: 1001;  /* #switchButtons よりも高い値を設定 */
+    width: 90vw;
+    height: 90vh;
+    object-fit: contain;
 }
 
 
@@ -70,7 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1001;
+    z-index: 1000;
 }
 
 /* ローディング画面 */
