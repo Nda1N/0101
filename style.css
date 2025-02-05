@@ -89,14 +89,15 @@
 
 /* ボタンの配置 */
 #switchButtons {
-    position: fixed;
-    top: 15%;  /* ×ボタンの下に配置 */
+    position: absolute;
+    top: 20%; /* ×ボタンの下に配置 */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
     display: flex;
     flex-direction: column;  /* 縦方向に配置 */
-    gap: 10px;  /* ボタンの間隔 */
+    gap: 15px;  /* ボタンの間隔 */
+    text-align: center; /* 中央揃え */
 }
 
 /* ①と②のボタンスタイル */
