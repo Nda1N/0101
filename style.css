@@ -51,7 +51,6 @@
     z-index: 1000;
 }
 
-
 /* ×ボタン（四角に変更） */
 #closeButton {
     position: absolute;
@@ -67,7 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    z-index: 1001;
 }
 
 /* ローディング画面 */
@@ -87,12 +86,13 @@
 
 /* ボタンの配置 */
 #switchButtons {
-    position: fixed;
+    position: absolute;
     top: 20%; 
     right: 5%; /* ×ボタンと同じ横位置 */
+    z-index: 1000;
     display: flex;
     flex-direction: column;  /* 縦方向に配置 */
-    gup: 10px
+    gap: 10px;  /* ボタンの間隔 */
 }
 
 /* ①と②のボタンスタイル */
