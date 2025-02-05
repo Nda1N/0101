@@ -45,7 +45,7 @@
 #gifPopup {
     position: fixed;
     top: 50%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
     display: none;
     z-index: 1000;
@@ -87,7 +87,7 @@
 /* ボタンの配置 */
 #switchButtons {
     position: absolute;
-    top: 20%; 
+    top: 30%; 
     right: 5%; /* ×ボタンと同じ横位置 */
     z-index: 1000;
     display: flex;
